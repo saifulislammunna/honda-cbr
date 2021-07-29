@@ -24,9 +24,15 @@ body {
 #feature-bike img {
   filter: grayscale(100%);
 }
-/* secvice section */
+/* happy clients section */
 .text {
   color: #e76f51;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.empty {
+  color: #aeaeae;
 }
 /* bonus part */
 .alert-heading {
