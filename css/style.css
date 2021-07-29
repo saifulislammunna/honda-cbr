@@ -11,3 +11,7 @@
 #feature-bike img {
   filter: grayscale(100%);
 }
+/* secvice section */
+.text {
+  color: #e76f51;
+}

@@ -57,12 +57,13 @@
     </header>
     <main>
           <!-- Fetured Bikes 2021 section -->
-      <section class="container" id="feature-bike">
-        <h2>Fetured Bikes 2021</h2>
+      <section class="container" >
+        <h2 class="text-center">Featured Bikes 2021</h2>
+        <p class="text-center" class="text-danger" class="fs-6">Best bike collection </p>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-          <div class="col">
+          <div class="col" id="feature-bike">
             <div class="card border-0 shadow-lg h-100">
-              <img src="images/feature-bike.jpg"   alt="...">
+              <img class="grayscale" src="images/feature-bike.jpg"   alt="...">
                
             </div>
           </div>
@@ -72,9 +73,9 @@
            
             </div>
           </div>
-          <div class="col">
+          <div class="col" id="feature-bike">
             <div class="card border-0 shadow-lg h-100">
-              <img src="images/feature-bike.jpg"   alt="...">
+              <img class="grayscale" src="images/feature-bike.jpg"   alt="...">
          
             </div>
           </div>
@@ -82,11 +83,11 @@
       </section>
          <!-- Happy Clients says section -->
          <section class="container my-5" id="user">
-            <h2>Happy Clients says</h2>
+            <h2 class="text-center">Happy Clients says</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
               <div class="col">
                 <div class="card border-0 shadow-lg h-100">
-                  <img src="images/user-1.png" class="card-img-top" alt="...">
+                  <img src="images/user-1.png" class="card-img-top" alt="..." >
                   <div class="card-body">
                     
                     <p class="card-text">Slate helps you see how 
@@ -112,7 +113,8 @@
               </div>
               <div class="col">
                 <div class="card border-0 shadow-lg h-100">
-                  <img src="images/user-3.jpg" class="card-img-top" alt="...">
+                  <img src="images/user-3.jpg" class="card-img-top" alt="..."  
+                   >
                   <div class="card-body">
                     
                     <p class="card-text">Slate helps you see how 
@@ -127,7 +129,7 @@
           </section>
               <!-- secvice section -->
       <section class="container"> 
-          <h1>Frequently Asked Questions</h1>
+          <h1 class="text-center" >Frequently Asked <span class="text">Questions</span></h1>
         <div class="row p-5  d-flex align-items-center">
             <div class="col-lg-6">
                 <img src="images/faq.png" class=" w-100" alt="...">
@@ -136,31 +138,54 @@
            
           <div class="col-lg-6">
             <section class="container">
-               
-               <div>
-                     <div>
-                      <h2>First column</h2>
-                      <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, nulla at officia nostrum adipisci tempore officiis consequuntur incidunt quae voluptatem? Corporis ut mollitia unde aspernatur atque, quasi quod expedita nihil.
-                      </p>
-                     </div>
-                   
-                      
-                      <div>
-                        <h2>Second column</h2>
-                      <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere incidunt architecto quis non corrupti at voluptatem modi maxime consectetur aspernatur dolorem error dignissimos iusto deleniti nemo, cum voluptate sit? Quia.
-                      </p>
-                      </div>
-      
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      What are the most important things I should
+know about riding a bike?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </div>
                   </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      How can I tell if my helmet is old and I need a 
+                      new one?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      My bike has been in storage is it safe to ride?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      What rules should I follow when riding my bike?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </div>
+                  </div>
+                </div>
+              </div>
+                
             
                  
-                    <h2>column-3</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam ipsam aliquam corrupti. Dolore voluptatum iusto exercitationem impedit. Mollitia animi sit at corrupti, qui, iusto, est accusantium aperiam pariatur a numquam.</p>
-                 </div>
-                  </div>
-              </div>
+                   
           </section>
           </div>
           
