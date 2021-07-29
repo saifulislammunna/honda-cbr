@@ -28,6 +28,9 @@ body {
 .text {
   color: #e76f51;
 }
+.col img {
+  width: 100%;
+}
 .fa-star.filled {
   color: #ffc014;
 }
