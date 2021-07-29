@@ -1,11 +1,17 @@
 /* top bar styles */
 
-.honda-cbr-bg-info {
+.honda-cbr-bg {
   background-color: #264653;
 }
 .honda-cbr-btn-purchase {
   background-color: #e76f51;
   border-radius: 5px;
+}
+.modal-title {
+  color: #070707;
+}
+.modal-description {
+  color: #070707;
 }
 /* feature bike style */
 #feature-bike img {
